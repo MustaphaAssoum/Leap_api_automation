@@ -27,7 +27,7 @@ pip3 install jsonschema
 
 After installing the required modules, navigate to the main directory and run the following command:
 
-```console
+```python
 behave -D id=api_id
 ```
 Where api_id is the endpoint's API ID provided by [crudcrud](https://crudcrud.com/)
@@ -35,9 +35,9 @@ Where api_id is the endpoint's API ID provided by [crudcrud](https://crudcrud.co
 ## Results
 
 After running the command above, Behave will test every scenario in the feature files. 
-Any failure encountered will be highlighted during the execution.
+Any failures encountered will be highlighted during the execution.
 
-Once the execution is complete, a summary of the result will be displayed at the bottom.
+Once the execution is complete, a summary of the results will be displayed at the bottom.
 Below is an example of what a report summary can look like
 ```python
 1 feature passed, 1 failed, 0 skipped
