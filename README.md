@@ -3,8 +3,7 @@
 This code was developed to demonstrate the automated testing of the API served by 
 [crudcrud](https://crudcrud.com/)
 
-This code uses [Behave](
-) to describe and execute test scenarios
+This code uses [Behave](https://github.com/behave/behave) to describe and execute test scenarios
 
 This code tests the <em>employee</em> Resource. However, it can be easily scaled to test any number of Resources
 
